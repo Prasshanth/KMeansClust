@@ -14,6 +14,14 @@ Tweets Centroid File: InitialSeeds.txt
 Tweets Data File: Tweets.json
 Output File: tweets-k-means-output.txt
 
+The initial seeds file should be in the following format:
+323906397735641088,
+323906483584655360,
+323906657333682176,
+323907258301939713,
+323909308188344320,
+where each of the values are Tweet IDs in the provided Tweets JSON file.
+
 The following experiments were run on the seeds file and tweets included:
 python tweet-k-means.py 5 InitialSeeds.txt Tweets.json tweets-5k-means-output.txt 
 Iteration number: 0
