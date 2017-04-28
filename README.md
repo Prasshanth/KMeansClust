@@ -15,11 +15,7 @@ Tweets Data File: Tweets.json
 Output File: tweets-k-means-output.txt
 
 The initial seeds file should be in the following format:
-323906397735641088,\n
-323906483584655360,\n
-323906657333682176,\n
-323907258301939713,\n
-323909308188344320,\n
+323906397735641088,\n323906483584655360,\n323906657333682176,\n323907258301939713,\n323909308188344320,\n
 where each of the values are Tweet IDs in the provided Tweets JSON file.
 
 The following experiments were run on the seeds file and tweets included:
