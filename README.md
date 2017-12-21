@@ -3,10 +3,11 @@ A utility for implementing the K-Means Clustering algorithm on Tweets
 
 This utility implements the K-Means Clustering algorithm for tweets provided to it. Tweets are provided to it in the form of JSON files, along with an initial seeds file, which contains the list of initial centroids used by the algorithm. If the number of clusters wanted is less than the number of centroid in the seeds file, then the initial n seeds will be taken for computation.
 
-Requirements: Python 2.7
+### Requirements
+Python 2.7
 
-Usage: 
-Usage: python tweet-k-means.py <numberOfClusters> <initialSeedsFile> <TweetsDataFile> <outputFile>
+### Usage
+python tweet-k-means.py <numberOfClusters> <initialSeedsFile> <TweetsDataFile> <outputFile>
 None of the arguments are mandatory.
 If the number of arguments is less than 4, then the following defaults are used, depending upon the number of arguments provided:
 Number of clusters: 25
@@ -18,6 +19,7 @@ The initial seeds file should be in the following format:
 323906397735641088,\n323906483584655360,\n323906657333682176,\n323907258301939713,\n323909308188344320,\n
 where each of the values are Tweet IDs in the provided Tweets JSON file.
 
+### Experiments
 The following experiments were run on the seeds file and tweets included:
 python tweet-k-means.py 5 InitialSeeds.txt Tweets.json tweets-5k-means-output.txt 
 Iteration number: 0
